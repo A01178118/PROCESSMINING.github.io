@@ -1,0 +1,50 @@
+.title {
+    justify-content: center;
+    font-family: "Oswald", sans-serif;
+    bottom: 50%;
+    margin: 10%;
+    font-size: 40px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+}
+
+/* Adjust button styles */
+.btn-lg {
+    font-size: 70px;
+    font-family: "Oswald", sans-serif;
+    padding: 20px 40px;
+    margin: 10px -5px; /* Negative margin to bring buttons closer */
+    box-shadow: 5px;
+}
+
+.title {
+    justify-content: center;
+    font-family: "Oswald", sans-serif;
+    bottom: 50%;
+    margin: 10%;
+}
+
+.btn-outline-grey-shadow {
+    color: #333;
+    background-color: transparent;
+    border: 2px solid #ccc;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Hover effect for the button */
+.btn-outline-grey-shadow:hover {
+    background-color: #f5f5f5;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Adjust button size and padding */
+.btn-outline-grey-shadow.btn-lg {
+    font-size: 30px;
+   
+}
